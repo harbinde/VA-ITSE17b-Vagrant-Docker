@@ -21,3 +21,4 @@ Vagrant beihnahltet zahlreiche Features, um Vgrant VM's verwalten zu können. Di
 * Vagrant bietet dem Benutzer an viele Netzwerkeinstellungen zu machen.
 * Vagrant bietet das Plugin Providers an, welche den gewünschten Hypervisor ansprechen kann.
 * Mit Provisiners können Befehle beim ersten Build der VM's ausgeführt werden. Diese können Beispielsweisse Programme installieren oder gewisse Konfigurationen einrichten.
+* In einem Vagrantfile können gleich mehrere VM's installiert und ausgerollt werden
