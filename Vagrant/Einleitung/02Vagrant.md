@@ -10,5 +10,5 @@ Vagrant macht es sehr einfach eine Virtuelle Maschine über die sogennante Vagra
 ## Die Vagrant Komponenten
 #### CLI
 * Das CLI ist das Command Line Tool von Vagrant. Das CLI wird benötigt um Vgrant VM's verwalten zu können.
-#### Vagrant-File
-* 
+#### Vagrantfile
+* In dieser Datei, werden die Vagrant VM's definiert. Das Vagrantfile wird in der Programiersprache Ruby geschrieben und werden von der CLI ausgeführt, damit Vagrant VM's entstehen können. Selbst wenn man sich nicht mit Ruby auskennt, stellt dies kein hindernis dar, da die Gliederung und das Editieren der 
