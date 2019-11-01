@@ -7,6 +7,7 @@ Das Arbeiten mit Vagrant VM's macht die ganze sache portabel. Mann kann die Snap
 Diese können dann ganz einfach die Files auf dem Rechner lokal hinterlegen und die Vagrant VM starten.
 Vagrant macht es sehr einfach eine Virtuelle Maschine über die sogennante Vagrant Cloud einzurichten.
 
-## Was beinhaltet CLI Vagrantfiles und Vagrant Cloud?
+## Die Vagrant Komponenten
 
 * Das CLI ist das Command Line Tool von Vagrant. Das CLI wird benötigt um Vgrant VM's verwalten zu können.
+* 
