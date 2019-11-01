@@ -9,5 +9,6 @@ Für diesen Test werden wir eine Ubuntu Maschine nehmen.
 Mit dem Befehl `vagrant init ubuntu/trusty64` wird die Box initialisiert:
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/vagrant_init_hello.JPG)
+
 5) Es wurde in dem Pfad in Vagrant File hinterlegt. Das jetzige Verzeichnis ist nun ein sogennantes Vagrant Direcotry, welches von anderen Vagrant Verzeichnisse isoliert. Jede änderung hat keinen Einfluss auf die Vagrant Base Box. Unsere Umgebung ist nun startklar, wurde jedoch noch nicht ausgeführt.
 6) Mit dem Befehel `vagrant up`
