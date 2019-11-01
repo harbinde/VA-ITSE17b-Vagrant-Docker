@@ -17,4 +17,7 @@ Vagrant macht es sehr einfach eine Virtuelle Maschine über die sogennante Vagra
 #### Merkmale von Vagrant
 Vagrant beihnahltet zahlreiche Features, um Vgrant VM's verwalten zu können. Diese wären folgende Merkmale
 * Mann kann mit der CLI per SSH auf die VM eine Verbindung aufbauen
-* Ordner, welche sich auf dem Host befindetn
+* Ordner (inklusive Daten), welche sich auf dem Host befinden können mir der virtuellen Maschine synchronisiert werden
+* Vagrant bietet dem Benutzer an viele Netzwerkeinstellungen zu machen.
+* Vagrant bietet das Plugin Providers an, welche den gewünschten Hypervisor ansprechen kann.
+* Mit Provisiners können Befehle beim ersten Build der VM's ausgeführt werden. Diese können Beispielsweisse Programme installieren oder gewisse Konfigurationen einrichten.
