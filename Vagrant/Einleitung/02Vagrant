@@ -1,1 +1,4 @@
-
+Was ist Vagrant und für welche Zwecke wird diese Software verwendet?
+Vagrant hat verschiedene Anwendungszwecke. Beispielsweise nutzen Entwickler und Systemengineers Vagrant um Virtuelle Maschinen für Testzwecke schnell und einfach zu Verfügung zu stellen.
+Dabei kann die Maschine so konfiguriert werden, dass dieser beim Deployment die benötigten Tools und Programme mitinstalliert.
+Eine Vagrant VM ist in einem gefrorenem Zustand
