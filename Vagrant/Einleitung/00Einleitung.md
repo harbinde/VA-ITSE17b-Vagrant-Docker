@@ -26,7 +26,7 @@ Es wäre jedoch für diesen Kurs Hilfreich, wenn für dich folgende Dinge kein F
 * Basiswissen in TCP/IP und DNS
 * Hypervisor (VirtualBox)
 * Linux Kommandos
-* Visual Studio Code
+* Visual Studio Code (nicht erforderlich, jedoch empfohlen)
 
 ## Was du benötigst
 Für diesen Kurs wird ein Windows Rechner verwendet. Vagrant wird jedoch auch für andere Betriebsysteme unterstützt.
