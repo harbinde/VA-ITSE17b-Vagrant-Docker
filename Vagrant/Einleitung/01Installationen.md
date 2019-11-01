@@ -11,11 +11,11 @@
 
 5) Der Installationpfad kann bei "C:\HashiCorp\Vagrant\" belassen werden:
 
-![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/eula.JPG)
+![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/vagrant_location.JPG)
 
 6) Starte die Installation mit "Install"
 
-![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/vagrant_location.JPG)
+![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/Install_vagrant.JPG)
 
 7) Vagrant wurde erfolgreich auf dem System installiert.
 8) Nach der Installation muss das System neugestartet werden.
