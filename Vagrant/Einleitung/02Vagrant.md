@@ -8,6 +8,7 @@ Diese können dann ganz einfach die Files auf dem Rechner lokal hinterlegen und 
 Vagrant macht es sehr einfach eine Virtuelle Maschine über die sogennante Vagrant Cloud einzurichten.
 
 ## Die Vagrant Komponenten
-
+#### CLI
 * Das CLI ist das Command Line Tool von Vagrant. Das CLI wird benötigt um Vgrant VM's verwalten zu können.
+#### Vagrant-File
 * 
