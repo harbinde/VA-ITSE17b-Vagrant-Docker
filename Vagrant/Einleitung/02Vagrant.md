@@ -13,4 +13,5 @@ Vagrant macht es sehr einfach eine Virtuelle Maschine über die sogennante Vagra
 #### Vagrantfile
 * In dieser Datei, werden die Vagrant VM's definiert. Das Vagrantfile wird in der Programiersprache Ruby geschrieben und werden von der CLI ausgeführt, damit Vagrant VM's entstehen können. Selbst wenn man sich nicht mit Ruby auskennt, stellt dies kein hindernis dar, da die Gliederung und das Editieren der Vagrant files sehr simpel ist, da die Ruby Befehle mehr als Statements angesehen werden können, welche keine Komplexität aufweisen.
 #### Vagrant Cloud
-* Vagrant Cloud ist eine Repository, welche der Hersteller von Vagrant (Hashicorp) zur Verfügung stellt.
+* Vagrant Cloud ist eine Repository, welche der Hersteller von Vagrant (HashiCorp) zur Verfügung stellt. Das Format von Vagrant VM's macht es sehr einfach die Maschinen freizugeben. Die Benutzer mit einem Vagrant Cloud Account können selbst erstellte VM's dort lagern und anderen auch freigeben.
+#### Merkmale von Vagrant
