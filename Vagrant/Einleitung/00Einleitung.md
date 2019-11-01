@@ -1,4 +1,4 @@
-#Einleitung 
+# Einleitung 
 Die Virttualisierungs Technlogie ist starke Technlogie, welche verschiedene Use-Cases hat.
 Diese werden in der Regel von Entwickler und System engineers verwendet, um virtuelle Maschinen in issolierten Sandobex zu entwicken bzw. zu betreiben.
 Grund für diese Technlogie ist das Erspirnis von Hardwareanforderungen / Hardwareersparnis und für Testumgebungen.
@@ -17,3 +17,17 @@ In diesem Kurs werden folgende Features erläuert:
 * Provisioners
 * Deployment von Multi-machines mit Vagrant
 * Verwaltung von Repositories (Vagrant Cloud)
+
+## Was du wissen solltest
+
+Das ist ein Kurs für Beginner. Deshalb benötisgt du noch keine Erfahrung mit Vagrant.
+Es wäre jedoch für diesen Kurs Hilfreich, wenn für dich folgende Dinge kein Fremdwort sind:
+
+* Basiswissen in TCP/IP und DNS
+* Hypervisor (VirtualBox)
+* Linux Kommandos
+* Visual Studio Code
+
+## Was du benötigst
+Für diesen Kurs wird ein Windows Rechner verwendet. Vagrant wird jedoch auch für andere Betriebsysteme unterstützt.
+Es wird empfohlen, dass dein Rechner mindesten 8 GB RAM verfügt und einen Prozessor, welche die Virtualisierung unterstütz (Intel VT-X oder ADM-V). Als Hypervisor wird VirtualBox verwendet. Dieser kann unter https://www.virtualbox.org/wiki/Downloads heruntergeladen und installiert werden. Für Windows 
