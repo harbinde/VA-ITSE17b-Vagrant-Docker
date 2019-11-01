@@ -20,4 +20,4 @@ Mit dem Befehl `vagrant init ubuntu/trusty64` wird die Box initialisiert:
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/vagrant_up_hello.JPG)
 
 7) Dieser Befehl sorgt dafürt, dass der Name der Box auf `ubuntu/trusty64` gesetzt wird. Diese Box bezieht sich auf die Box, welche sich auf der Vagrant Cloud befindet. Der Name ubuntu bezieht sich auf die Organisation, welche die Box auf der Cloud anbietet. Der Zweite Teil des Namens definiert die Version dieser Box. Jede Box, welche ausgeführt wird wird in einem Cache gelagert. Die Boxen werden in komprimierten Daten gelagert. Vagrant wird die Daten lokal auf dem lokalen Cache herunteladen. Der Cache befindet sich im Verzeichnis `C:\Users\USER\.vagrant.d\boxes\ubuntu-VAGRANTSLASH-trusty64\20190429.0.1\virtualbox` befinden. Dort ist unter anderem die VM, virtuelle Disk und das "orginale" Vagrantfile hinterlegt. Vagrant wird die Box in dem Verzeichnis importieren, wo der init Befehl ausgeführt wurde.
-
+8) Die Box wurde nun erfolgreich eingerichtet. Beim nöchsten Kapitel wird beschrieben man mit diesen Boxen interagieren kann.
