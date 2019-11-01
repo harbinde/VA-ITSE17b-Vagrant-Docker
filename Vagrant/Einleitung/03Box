@@ -1,1 +1,2 @@
-
+# Eine Box mit Vagrant ausführen
+Hier Wird beschrieben wie man eine Vagarnt Box ausführt. Eine Box ist ein komprimiertes File, wellche alle Informationen / Daten enthält um eine Vagrant VM zu starten.
