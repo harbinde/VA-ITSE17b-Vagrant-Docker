@@ -8,5 +8,5 @@ Im Rahmen der Vertiefungsarbeit wurde für Studenten und Schüler der Technische
 
 [Vagrant](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/02Vagrant.md)
 
-[Eine Box mit Vagrant ausführen](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/02Vagrant.md)
-https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/03Box.md
+[Eine Box mit Vagrant ausführen](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/03Box.md)
+
