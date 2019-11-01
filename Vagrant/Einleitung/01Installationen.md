@@ -1,6 +1,6 @@
 # Installation Vagrant
 1) Besuche die Webseite https://www.vagrantup.com/downloads.html
-Inline-style: 
+
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/msi_install.JPG "msi_install")
 
 2) Lade das Setupfile für dein Betriebssystem herunter.
