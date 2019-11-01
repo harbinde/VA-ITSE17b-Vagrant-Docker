@@ -13,4 +13,7 @@ In diesem Kurs werden folgende Features erläuert:
 * Das erstellen einer VM mit Vagrant
 * Die Verwaltung von VM's mit Vagrant
 * Die Synchronisation von freigegeben Verzeichnisse
-* 
+* Providers
+* Provisioners
+* Deployment von Multi-machines mit Vagrant
+* Verwaltung von Repositories
