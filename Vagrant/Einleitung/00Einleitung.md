@@ -16,4 +16,4 @@ In diesem Kurs werden folgende Features erläuert:
 * Providers
 * Provisioners
 * Deployment von Multi-machines mit Vagrant
-* Verwaltung von Repositories
+* Verwaltung von Repositories (Vagrant Cloud)
