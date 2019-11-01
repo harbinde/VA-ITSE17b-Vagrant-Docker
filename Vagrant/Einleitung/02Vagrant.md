@@ -9,4 +9,4 @@ Vagrant macht es sehr einfach eine Virtuelle Maschine über die sogennante Vagra
 
 ## Was beinhaltet CLI Vagrantfiles und Vagrant Cloud?
 
-*Das CLI ist das Command Line Tool von Vagrant. Das CLI wird benötigt um Vgrant VM's verwalten zu können.
+* Das CLI ist das Command Line Tool von Vagrant. Das CLI wird benötigt um Vgrant VM's verwalten zu können.
