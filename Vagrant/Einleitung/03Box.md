@@ -1,6 +1,6 @@
 # Eine Box mit Vagrant ausführen
 #### -------------------------------------------------------------------------
-#### Kursmaterial: (https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/vagrant_init_hello.JPG)
+#### Kursmaterial: (https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/Kursmaterial/03Box/Vagrant_Hello.zip)
 #### -------------------------------------------------------------------------
 
 Hier Wird beschrieben wie man eine Vagarnt Box ausführt. Eine Box ist ein komprimiertes File, wellche alle Informationen / Daten enthält um eine Vagrant VM zu starten.
