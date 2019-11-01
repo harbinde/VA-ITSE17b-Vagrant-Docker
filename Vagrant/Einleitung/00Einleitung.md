@@ -30,4 +30,4 @@ Es wäre jedoch für diesen Kurs Hilfreich, wenn für dich folgende Dinge kein F
 
 ## Was du benötigst
 Für diesen Kurs wird ein Windows Rechner verwendet. Vagrant wird jedoch auch für andere Betriebsysteme unterstützt.
-Es wird empfohlen, dass dein Rechner mindesten 8 GB RAM verfügt und einen Prozessor, welche die Virtualisierung unterstütz (Intel VT-X oder ADM-V). Als Hypervisor wird VirtualBox verwendet. Dieser kann unter https://www.virtualbox.org/wiki/Downloads heruntergeladen und installiert werden. Für Windows 
+Es wird empfohlen, dass dein Rechner mindesten 8 GB RAM verfügt und einen Prozessor, welche die Virtualisierung unterstütz (Intel VT-X oder ADM-V). Als Hypervisor wird VirtualBox verwendet. Dieser kann unter https://www.virtualbox.org/wiki/Downloads heruntergeladen und installiert werden. In diesem Kurs werden oftmals Vagrant-Files bearbeitet. Hierführ kann jeder Texteditor verwendet werden. Für diesen Kurs wird jedoch Visual Stuido Code verwendet werden. Visual Studio Code kann unter https://code.visualstudio.com/download hernuntergeladen und installiert werden.
