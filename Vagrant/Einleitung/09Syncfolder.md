@@ -8,4 +8,4 @@ Das bedeutet, dass alle Daten auch via VM zugänglich wären. Für diesen Schrit
 - `config.vm.synced_folder "share", "/share"`.
 4) Das Vagrantfile speichern.
 5) Die VM Muss nun neugetstartet werdne, damit die Einstellungen des Vagrantfiles übernommen werden. Dies geschiet mit dem Befehl `vagrant reload`.
-6) Mit `vagrant ssh` wird eine
+6) Mit `vagrant ssh` wird eine SSH Connection zur VM aufgebaut.
