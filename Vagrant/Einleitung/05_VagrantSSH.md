@@ -8,9 +8,12 @@ Dies macht es sehr einfach eine SSH-Verbindung via Vagrant CLI aufzubauen.
 1) Ins Verzechnis mit `cd PFAD` wechsel, wo sich die Box befindet.
 2) Den Befehl `vagrant ssh` eingeben
 3) Nun hat man auf die VM mithilfe von SSH aufgebaut.
+4) Mit `exit` wird die SSH Verbindung verlassen
 
 #### SSH Verbindung  (global)
 
 1) Hier wird der Befehl "vagrant ssh ID" eingegben. In diesem Fall lautet dies `vagrant ssh bc26ee0`:
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/vagrant_ssh.JPG)
+
+2) Mit `exit` wird die SSH Verbindung verlassen
