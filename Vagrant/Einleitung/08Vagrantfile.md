@@ -7,7 +7,7 @@ Beispielsweisse können in einem Vagrantfile folgende Atributte definiert werden
 - Speicher
 - Netzwerk
 
-Die
+Das Vagrantfile unseres Projektes "Vagrant_Hello" sieht beim ersten Init folgendermassen aus:
 
 ```ruby
 # -*- mode: ruby -*-
