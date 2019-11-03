@@ -1,4 +1,8 @@
 # Einen lokalen Ordner mit Vagrant auf der VM synchronisieren.
+#### -------------------------------------------------------------------------
+#### Kursmaterial: (https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/Kursmaterial/03Box/Vagrant_Hello.zip)
+#### -------------------------------------------------------------------------
+
 Die Meisten Hypervisor bieten die Funtkion an einen Ordner, welche sich auf dem loaken Maschine befindet mit der VM zu synchronisieren.
 Das bedeutet, dass alle Daten auch via VM zugänglich wären. Für diesen Schritten nutzen wir dar Projekt "Vagrant_Hello".
 
