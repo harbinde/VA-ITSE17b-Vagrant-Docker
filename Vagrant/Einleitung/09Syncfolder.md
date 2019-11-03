@@ -1,4 +1,4 @@
-# Einen lokalen Ordner mit Vagranr auf der VM synchronisieren.
+# Einen lokalen Ordner mit Vagrant auf der VM synchronisieren.
 Die Meisten Hypervisor bieten die Funtkion an einen Ordner, welche sich auf dem loaken Maschine befindet mit der VM zu synchronisieren.
 Das bedeutet, dass alle Daten auch via VM zugänglich wären. Für diesen Schritten nutzen wir dar Projekt "Vagrant_Hello".
 
