@@ -1,0 +1,8 @@
+# Eine Verbindung zur Vagrant VM aufbauen
+Wir haben vorhin mit Vagrant eine Ubuntu VM eingerichtet. Diese hat kein GUI und läuft auch im hintergrund. Auf dem ersten Blick meint man, dass keine Verbindung zur VM möglich ist.
+Doch dem ist nicht so. Vagrant kommt mit einer eingebauten SSH-Funktion daher. Möchte man auf die VM zugreiffen, kann man dies mit SSH tun.
+Sobald Vagrant eine Box konfiguriert, wird automatisch SSH mitsamt einenm Schlüsselpaar konfiguriert, welche zur authpriesierung dient.
+Dies macht es sehr einfach eine SSH-Verbindung via Vagrant CLI aufzubauen.
+
+#### SSH Verbindung aufbauen
+
