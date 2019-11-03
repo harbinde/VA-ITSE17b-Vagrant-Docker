@@ -9,3 +9,10 @@ Das bedeutet, dass alle Daten auch via VM zugänglich wären. Für diesen Schrit
 4) Das Vagrantfile speichern.
 5) Die VM Muss nun neugetstartet werdne, damit die Einstellungen des Vagrantfiles übernommen werden. Dies geschiet mit dem Befehl `vagrant reload`.
 6) Mit `vagrant ssh` wird eine SSH Connection zur VM aufgebaut.
+7) Wenn man nun `ls /vagrant/` eingibt werden folgende Synced Folders angezeit:
+
+![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/vagrant_synced_share.JPG)
+
+8) Wechselt man nun mit `cd /vagrant/share` und gibt `ls` ein, sieht man Testfile "test.txt", welches vorhin auf der Windows Maschine erstellt wurde: 
+
+![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/vagrant_synced_share_textfile.JPG)
