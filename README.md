@@ -10,3 +10,21 @@ Im Rahmen der Vertiefungsarbeit wurde für Studenten und Schüler der Technische
 
 [Eine Box mit Vagrant ausführen](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/03Box.md)
 
+[Statusabfrage der Vagrant Box](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/04Vagrant_Status.md)
+
+[Eine Verbindung zur Vagrant VM aufbauen](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/05_VagrantSSH.md)
+
+[Eine Box mit Vagrant ausführen](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/06_Vagranthaltdesroy.md)
+
+[Vagrant Box herunterfahren und löschen](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/06_Vagranthaltdesroy.md)
+
+[Vagrant Box zurücksetzen](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/07_Vagrantinitialstate.md)
+
+[Vagrantfile](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/08Vagrantfile.md)
+
+[Stockerstrasse 10, 8002 Zürich](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/09Syncfolder.md)
+
+[https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/10Netzwerk.md](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/03Box.md)
+
+[Eine Box mit Vagrant ausführen](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/03Box.md)
+
