@@ -3,7 +3,7 @@
 Vagrant unterstützt drei Möglichkeiten für die Netzwerkkonfigurationen. Diese wären folgende Möglichkeiten:
 - Portweiterleitungen
 - Private Netzwerke
-- Öffentliche Netzwerke
+- Öffentliche Netzwerke (nicht Bestandteil dieses Kurses)
 
 Standardmässig sind Vagrant Boxen nicht sicher. User, Kennwörter und kryptografische Schlüssel sind in der Regel Standard. Deshalb empfiehl sich dies nicht für öffentliche Netzwerke. Für diesen Einsatz müsste man diese ändern. Dies ist jeoch nicht bestandteil dieses Kurses.
 
@@ -34,3 +34,9 @@ Damit ihr dies auch praktisch umserzen werdet werden wir einen Apache-Webserver 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/vagrant_nat_apache_site.PNG)
 
 #### Konfiguration des Netzwerkes
+Möchte man mit Vagrant der Box eine IP zuweisen, kann man dies im Vagrantfile definieren:
+
+1) Vagrantfile öffnen
+2) Den Werte `# config.vm.network "private_network", ip: "192.168.33.10"` auskommentieren und durch `dhcp` oder einer statischen IP Eintrag ersetzten:
+- `config.vm.network "private_network", ip: "10.62.117.200"`
+3) Vagrantfile sichern und mit `vagrant reload` die Box neustarten
