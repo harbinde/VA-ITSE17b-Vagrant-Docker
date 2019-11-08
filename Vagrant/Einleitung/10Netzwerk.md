@@ -20,3 +20,12 @@ Damit ihr dies auch praktisch umserzen werdet werden wir einen Apache-Webserver 
 - `sudo apt-get update`
 - `sudo apt-get upgrade`
 - `sudo apt-get install apache2`
+4) Es wurde nun Apache mit der Standardwebsite installiert und eingerichtet. Mit `curl localhost` kann überprüft werden, ob die Default HTML-Site von Apache eingerichtet wurde.
+5) Nun öffnet man das Vagrantfile.
+6) Man findet den Ruby Befehl ` # config.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"`. Dieser wird folgendermassen angepasst und danchach gesichert.:
+- ` config.vm.network "forwarded_port", guest: 80, host: 8888, host_ip: "127.0.0.1"`.
+7) Die SSH-Connection mit `exit` verlassen und dann mit `vagrant reload` die Box neustarten. Man sieht beim reload, dass die NAT-Regel hinzugefügt und dies der Box übermittelt wurde:
+
+![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/vagrant_nat_reload.PNG)
+
+8)
