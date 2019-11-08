@@ -28,7 +28,7 @@ Damit ihr dies auch praktisch umserzen werdet werden wir einen Apache-Webserver 
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/vagrant_nat_reload.PNG)
 
-8) Weunn man nun auf dem Host mit dem Browser die Adresse "http://localhost:8888" eingbit, so sollte die HTML-Site von Apache dargstellt werden:
+8) Weunn man nun auf dem Host mit dem Browser die Adresse "http://localhost:8888" eingbit, so sollte die HTML-Site von Apache dargstellt werden. Die Box wird dem Host die Website von Port 80 auf Port 8888 weiterleiten und ist nur via localhost erreichbar:
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/vagrant_nat_apache_site.PNG)
 
