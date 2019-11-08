@@ -40,3 +40,4 @@ Möchte man mit Vagrant der Box eine IP zuweisen, kann man dies im Vagrantfile d
 2) Den Werte `# config.vm.network "private_network", ip: "192.168.33.10"` auskommentieren und durch `dhcp` oder einer statischen IP Eintrag ersetzten:
 - `config.vm.network "private_network", ip: "10.62.117.200"`
 3) Vagrantfile sichern und mit `vagrant reload` die Box neustarten
+4) 
