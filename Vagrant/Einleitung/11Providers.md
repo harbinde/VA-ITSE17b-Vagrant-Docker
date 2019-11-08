@@ -49,8 +49,8 @@ config.vm.provider "virtualbox" do |vb|
   end
 
 ```
-5) Mit dem Wert `vb.memory = "1024"` wird der Box 1GB RAM zugewiesen.
-6) Mit dem Wert `vb.cpus = "2"` wird der Box 2 CPU'zugewiesen
+5) Mit dem Wert `vb.memory = "1024"` wird der Box 1GB RAM zugewiesen
+6) Mit dem Wert `vb.cpus = "2"` wird der Box 2 CPU's zugewiesen
 7) Die Box mit `vagrant reload` neustarten
 8) Nun kann man mit den Befehle `vmstat -s` & `lscpu` überprüfen, ob die Einstellugen übernommen wurden
    
