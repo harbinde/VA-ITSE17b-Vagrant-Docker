@@ -12,7 +12,7 @@ Mit dieser Funktionen können Pors von der VM auf dem Host weitergeleitet werden
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/vagrant_forwarding.PNG)
 
-#### Einrichtung von Portweiterleitung
+#### Konfiguration der Portweiterleitung
 Damit ihr dies auch praktisch umserzen werdet werden wir einen Apache-Webserver auf der Ubuntu Box installieren und eine Portweiterleitung konfigurieren:
 
 1) Starte die Box `vagrant up`.
