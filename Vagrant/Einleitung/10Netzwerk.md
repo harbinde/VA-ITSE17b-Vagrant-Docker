@@ -16,7 +16,7 @@ Damit ihr dies auch praktisch umserzen werdet werden wir einen Apache-Webserver 
 
 1) Starte die Box `vagrant up`.
 2) Starte mit `vagrant ssh` eine SSH-Connection mit der Box.
-3) Gibt folgende Bash-Befehle ein:
+3) Folgende Bash Befehle eingeben:
 - `sudo apt-get update`
 - `sudo apt-get upgrade`
 - `sudo apt-get install apache2`
