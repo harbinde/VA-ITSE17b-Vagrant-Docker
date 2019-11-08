@@ -12,4 +12,11 @@ Mit dieser Funktionen können Pors von der VM auf dem Host weitergeleitet werden
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/vagrant_forwarding.PNG)
 
-Damit ihr dies auch praktisch umserzen werdet werden wir einen Apache-Webserver auf der Ubuntu Box installieren.
+Damit ihr dies auch praktisch umserzen werdet werden wir einen Apache-Webserver auf der Ubuntu Box installieren und eine Portweiterleitung konfigurieren:
+
+1) Starte die Box `vagrant up`.
+2) Starte mit `vagrant ssh` eine SSH-Connection mit der Box.
+3) Gibt folgende Bash-Befehle ein:
+- `sudo apt-get update`
+- `sudo apt-get upgrade`
+- `sudo apt-get install apache2`
