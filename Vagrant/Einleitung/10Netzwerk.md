@@ -11,3 +11,5 @@ Standardmässig sind Vagrant Boxen nicht sicher. User, Kennwörter und kryptogra
 Mit dieser Funktionen können Pors von der VM auf dem Host weitergeleitet werden. Dies macht Beispielsweise Sinn, wenn man die Ports eines Apache-Webservers an dem Host weiterleiten möchte. Hier wird dies Bildlich dargestellt:
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/vagrant_forwarding.PNG)
+
+Damit ihr dies auch praktisch umserzen werdet werden wir einen Apache-Webserver auf der Ubuntu Box installieren.
