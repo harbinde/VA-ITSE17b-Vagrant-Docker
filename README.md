@@ -22,9 +22,9 @@ Im Rahmen der Vertiefungsarbeit wurde für Studenten und Schüler der Technische
 
 [Vagrantfile](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/08Vagrantfile.md)
 
-[Stockerstrasse 10, 8002 Zürich](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/09Syncfolder.md)
+[Ordner synchronisieren](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/09Syncfolder.md)
 
-[https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/10Netzwerk.md](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/03Box.md)
+[Netzwerk](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/03Box.md)
 
-[Eine Box mit Vagrant ausführen](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/03Box.md)
+
 
