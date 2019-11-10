@@ -1,5 +1,9 @@
 # Multi-Machines mit Vagrant erstellen
 
+#### -------------------------------------------------------------------------
+#### Kursmaterial: (https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/tree/master/Vagrant/Einleitung/Kursmaterial/13Multimachines)
+#### -------------------------------------------------------------------------
+
 Wir haben bis jetzt jeweils nur eine Vagrant Box automatisiert. Vagrant unterstützt jedoch auch, dass man mit nur einem Vagrantfile gleich mehrere Virtuelle Machines erstellen kann.
 Dies macht Beispielsweise dann Sinn, wenn man eine Testumgebung benötigt, wo man den Service in verschieden Tiers teilen möchte, indem man auf einer Box einen Webserver einrichtet und auf der andere Box eine Datenbank betreibt.
 
