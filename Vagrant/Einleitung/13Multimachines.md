@@ -42,4 +42,4 @@ end
 
 5) Eine Box wird immer mit config.vm.definie "BOXNAME" |BOXNAME| definiert. Wenn man nun für diese Box Beispielsweise eine eine IP zuweisen möchte, so gibt man vor dem Statements noch den Boxnamen ein (`BOXNAME.vm.network "private_network", ip: "X.X.X.X" `)
 6) Mit `vagrant up` werden die Boxen eingerichtet
-7) Nun kann man mit dem Web-Broswe die Adressen http://192.168.0.70:7777 und http://192.168.0.71:8888 aufrufen. Es sollten die Adr
+7) Nun kann man mit dem Web-Broswe die Adressen http://192.168.0.70:7777 und http://192.168.0.71:8888 aufrufen. Es wurden nun zwei Vagrant Boxen ausgerollt:
