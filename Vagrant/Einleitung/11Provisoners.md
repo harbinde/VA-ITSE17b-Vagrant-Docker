@@ -1,0 +1,17 @@
+# Vagrant Provisoners
+
+Vagrant Provisoners sind Sripts, welche im Vagratfile oder einem externen File definiert werden. Standardmässig, werden die Provisoners nur beim ersten Ausführen der Box durchgeführt.
+Provisoners können Applikationen herunterladen, installieren und Konfigurationen tätigen. Vagrant Provisoners eigent sich deshalb ausgezeichnet um eine Vagrant Box zu automatisieren. Möchte man Beispielsweisse eine Boxtemplate haben, welche automatisch einen Apache Webserver mitinstalliert, so kann man dies im Provisoners-Abschnitt im Vagrantfile definren.
+Damit wir so ein Template ertsellen können wird zuerst die alte Box entfern:
+
+1) `vagrant destroy` ausführen
+2) Vagrantfile öffnen
+3) Den Befehl `# config.vm.provision "shell", inline: <<-SHELL` auskommentieren
+4) Im Root-Verzeichnis des Vagrant Projektess `Vagrant_Hello` den Ordnern `installer` erstellen 
+5) Im Verzeichnis `installer` wird nun die Datei `install_apache2.sh` erstellt, welche folgende Befehle enthalen:
+- sudo apt-get update
+- sudo apt-get upgrade
+- sudo apt-get install -y apache2
+6) Das File sichern
+7) Provisoner Skripts können wie schon vorhin erwähnt im Vagrantfile oder mit externen Skript definiert werden. Standardmässig macht man dies im Vagrantfile. Doch in diesem Fall haben wir ein externernes File definiert, was das Ganze auch viel übersichtlicher und einfacher macht, solche Skripts zu verwalten.
+8) 
