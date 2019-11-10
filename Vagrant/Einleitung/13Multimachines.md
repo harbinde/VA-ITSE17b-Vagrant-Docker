@@ -10,36 +10,33 @@ Dies macht Beispielsweise dann Sinn, wenn man eine Testumgebung benötigt, wo ma
 ```ruby
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
-
 Vagrant.configure("2") do |config|
-
 config.vm.define "nginx" do |nginx|
   nginx.vm.box = "ubuntu/trusty64"
   nginx.vm.provider "virtualbox" do |vb|
   vb.memory = "512"
-  vb.cpus = "2"
+  vb.cpus = "1"
   end
-  nginx.vm.network "private_network", ip: "192.168.0.70" 
-  nginx.vm.network "forwarded_port", guest: 80, host: 7777, host_ip: "192.168.0.70"
+  nginx.vm.network "private_network", ip: "10.62.117.70" 
+  nginx.vm.network "forwarded_port", guest: 80, host: 7777, host_ip: "10.62.117.70"
   nginx.vm.provision "shell", path: "installer/install_nginx.sh"
   end
 
-  config.vm.define "apache2" do |apache2|
-  apache2.vm.box = "ubuntu/trusty64"
-  apache2.vm.provider "virtualbox" do |vb|
+config.vm.define "apache" do |apache|
+  apache.vm.box = "ubuntu/trusty64"
+  apache.vm.provider "virtualbox" do |vb|
   vb.memory = "512"
-  vb.cpus = "2"
+  vb.cpus = "1"
   end
-  apache2.vm.network "private_network", ip: "192,168.0.7" 
-  apache2.vm.network "forwarded_port", guest: 80, host: 8888, host_ip: "192.168.0.71"
-  apache2.vm.provision "shell", path: "installer/install_apache2.sh"
+  apache.vm.network "private_network", ip: "10.62.117.71" 
+  apache.vm.network "forwarded_port", guest: 80, host: 7777, host_ip: "10.62.117.71"
+  apache.vm.provision "shell", path: "installer/install_nginx.sh"
   end
-  
-  config.vm.box = "ubuntu/trusty64"
 
+  config.vm.box = "ubuntu/trusty64"
 end
 ```
 
 5) Eine Box wird immer mit config.vm.definie "BOXNAME" |BOXNAME| definiert. Wenn man nun für diese Box Beispielsweise eine eine IP zuweisen möchte, so gibt man vor dem Statements noch den Boxnamen ein (`BOXNAME.vm.network "private_network", ip: "X.X.X.X" `)
 6) Mit `vagrant up` werden die Boxen eingerichtet
-7) Nun kann man mit dem Web-Broswe die Adressen http://192.168.0.70:7777 und http://192.168.0.71:8888 aufrufen. Es wurden nun zwei Vagrant Boxen ausgerollt:
+7) Nun kann man mit dem Web-Broswe die Adressen http://10.62.117.70:7777 und http://10.62.117.71:8888 aufrufen. Es wurden nun zwei Vagrant Boxen ausgerollt:
