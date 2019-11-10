@@ -11,3 +11,5 @@ Vagrant bietet die Funktion, lebsterstelle Boxen in der Cloud hochzuladen und f�
 7) Mit `vagrant package --vagrantfile Vagrantfile --output NginxBox.box` wird aus der VM eine Box erstellt.
 8) Mit dem Befehl `certutil -hashfile NginxBox.com -SHA256` wird der Hash dieser Box erzeugt. Dieser wird dan später benötigt
 9) Nun wechselt man wieder zu Vagrant Cloud und klickt auf "Add a Provider". Als Provider wird "VirtualBox" definiert. Als File Hosting wird Vagrant Cloud verwendet. Nun wird die Checksumme auf SHA256 definiert und der Hashwert, welches vorhin erzeugt wurde hinzugefügt. Anschliessend wird die Box hochgeladen. Danach klickt man auf "Release". Die Box steht nun allen zur Verfügung.
+
+![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/vagrantcloud_1.PNG)
