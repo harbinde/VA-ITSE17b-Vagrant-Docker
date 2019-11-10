@@ -5,13 +5,18 @@ Provisoners können Applikationen herunterladen, installieren und Konfiguratione
 Damit wir so ein Template ertsellen können wird zuerst die alte Box entfern:
 
 1) `vagrant destroy` ausführen
-2) Vagrantfile öffnen
-3) Den Befehl `# config.vm.provision "shell", inline: <<-SHELL` auskommentieren
-4) Im Root-Verzeichnis des Vagrant Projektess `Vagrant_Hello` den Ordnern `installer` erstellen 
-5) Im Verzeichnis `installer` wird nun die Datei `install_apache2.sh` erstellt, welche folgende Befehle enthalen:
+2) Im Root-Verzeichnis des Vagrant Projektess `Vagrant_Hello` den Ordnern `installer` erstellen 
+3) Im Verzeichnis `installer` wird nun die Datei `install_apache2.sh` erstellt, welche folgende Befehle enthalen:
 - sudo apt-get update
 - sudo apt-get upgrade
 - sudo apt-get install -y apache2
-6) Das File sichern
-7) Provisoner Skripts können wie schon vorhin erwähnt im Vagrantfile oder mit externen Skript definiert werden. Standardmässig macht man dies im Vagrantfile. Doch in diesem Fall haben wir ein externernes File definiert, was das Ganze auch viel übersichtlicher und einfacher macht, solche Skripts zu verwalten.
-8) 
+4) Das File sichern
+5) Provisoner Skripts können wie schon vorhin erwähnt im Vagrantfile oder mit externen Skript definiert werden. Standardmässig macht man dies im Vagrantfile. Doch in diesem Fall haben wir ein externernes File definiert, was das Ganze auch viel übersichtlicher und einfacher macht, solche Skripts zu verwalten.
+6) Vagrantfile öffnen
+7) Den Befehl `# config.vm.provision "shell", inline: <<-SHELL` auskommentieren
+8) Den Befehl durch dieses Statement ändern:
+- `config.vm.provision "shell", path: "installer/install_apache2.sh"`
+9) Vagrantfile sichern
+10) Mit `vagrant up` die Box neu einrichten
+11) Die NAT-Regeln befinden sich immer noch im Vagrantfile. Sobald also die VM vollständig eingerichtet wurde, kann mit dem Web-Browser überpüft werden, ob auch wirklich Apache installiert bzw konfiguriert wurde:
+- https://localhost:8888
