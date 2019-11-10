@@ -19,6 +19,7 @@ config.vm.define "nginx" do |nginx|
   end
   nginx.vm.network "private_network", ip: "10.62.117.70" 
   nginx.vm.network "forwarded_port", guest: 80, host: 7777, host_ip: "10.62.117.70"
+  config.vm.network "forwarded_port", guest: 80, host: 7777, host_ip: "127.0.0.1"
   nginx.vm.provision "shell", path: "installer/install_nginx.sh"
   end
 
@@ -29,7 +30,8 @@ config.vm.define "apache" do |apache|
   vb.cpus = "1"
   end
   apache.vm.network "private_network", ip: "10.62.117.71" 
-  apache.vm.network "forwarded_port", guest: 80, host: 7777, host_ip: "10.62.117.71"
+  apache.vm.network "forwarded_port", guest: 80, host: 8888, host_ip: "10.62.117.71"
+  apache.vm.network "forwarded_port", guest: 80, host: 8888, host_ip: "127.0.0.1"
   apache.vm.provision "shell", path: "installer/install_nginx.sh"
   end
 
