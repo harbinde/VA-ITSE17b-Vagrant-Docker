@@ -13,3 +13,5 @@ Vagrant bietet die Funktion, lebsterstelle Boxen in der Cloud hochzuladen und f�
 9) Nun wechselt man wieder zu Vagrant Cloud und klickt auf "Add a Provider". Als Provider wird "VirtualBox" definiert. Als File Hosting wird Vagrant Cloud verwendet. Nun wird die Checksumme auf SHA256 definiert und der Hashwert, welches vorhin erzeugt wurde hinzugefügt. Anschliessend wird die Box hochgeladen. Danach klickt man auf "Release Version". Die Box steht nun allen zur Verfügung.
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/vagrantcloud_1.PNG)
+
+10) Auf dem Desktop einne neuen Ordnern anlegen und ins Verzeichnis mit `cd` wechseln. Den Befehl `vagrant init harbind/Vagrant_Nginx` ausführen. Danach wird die Box mit `vagrant up` installiert und konfiguriert.
