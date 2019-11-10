@@ -1,5 +1,9 @@
 # Vagrant Provisoners
 
+#### -------------------------------------------------------------------------
+#### Kursmaterial: (https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/tree/master/Vagrant/Einleitung/Kursmaterial/12Provisoners)
+#### -------------------------------------------------------------------------
+
 Vagrant Provisoners sind Sripts, welche im Vagratfile oder einem externen File definiert werden. Standardmässig, werden die Provisoners nur beim ersten Ausführen der Box durchgeführt.
 Provisoners können Applikationen herunterladen, installieren und Konfigurationen tätigen. Vagrant Provisoners eigent sich deshalb ausgezeichnet um eine Vagrant Box zu automatisieren. Möchte man Beispielsweisse eine Boxtemplate haben, welche automatisch einen Apache Webserver mitinstalliert, so kann man dies im Provisoners-Abschnitt im Vagrantfile definren.
 Damit wir so ein Template ertsellen können wird zuerst die alte Box entfern:
@@ -20,3 +24,5 @@ Damit wir so ein Template ertsellen können wird zuerst die alte Box entfern:
 10) Mit `vagrant up` die Box neu einrichten
 11) Die NAT-Regeln befinden sich immer noch im Vagrantfile. Sobald also die VM vollständig eingerichtet wurde, kann mit dem Web-Browser überpüft werden, ob auch wirklich Apache installiert bzw konfiguriert wurde:
 - http://localhost:8888
+![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/vagrant_nat_apache_site.PNG)
+12) Die Box wurde erfolgreich mit einem Provisoners File eingerichtet
