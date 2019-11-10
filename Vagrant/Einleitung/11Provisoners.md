@@ -19,4 +19,4 @@ Damit wir so ein Template ertsellen können wird zuerst die alte Box entfern:
 9) Vagrantfile sichern
 10) Mit `vagrant up` die Box neu einrichten
 11) Die NAT-Regeln befinden sich immer noch im Vagrantfile. Sobald also die VM vollständig eingerichtet wurde, kann mit dem Web-Browser überpüft werden, ob auch wirklich Apache installiert bzw konfiguriert wurde:
-- https://localhost:8888
+- http://localhost:8888
