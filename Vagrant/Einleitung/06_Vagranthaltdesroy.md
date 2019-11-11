@@ -7,4 +7,4 @@ Eine laufende Box kann heruntergefahren oder auch ganz gelöscht werden.
 
 #### Vagrant entfernen
 
-- Mit dem Befehl `vagrant destroy` (lokal) oder auch ``vagrant destroy ID` (global) wird die Box entfernt.
+- Mit dem Befehl `vagrant destroy` (lokal) oder auch `vagrant destroy ID` (global) wird die Box entfernt.
