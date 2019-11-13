@@ -1,0 +1,4 @@
+# Einleitung
+Die Hauptaufgabe von Docker besteht Container auf einer Linux Umgebung zu verwalten und diesen bei Bedarf starten und zu stoppen. Nun ist es so, dass nicht die Meisten mit einer Linux Umgebung arbeiten.  Deshalb richtet Docker bei einer Windows Installation eine Linux VM, wo die Containerisierung läuft. Docker bietet ein Tool an, mit dem die Verwaltung von Container nahezu transaprent ist.  Wir werden uns Schritt für Schritt in dieser Thematik aufarbeiten. Zuerst sehen wir an, wie Docker aufgebaut ist. Danach wird erläutert wie es installiert, konfiguriert und verwaltet wird.
+Seitdem es Docker gibt, hört man immer mehr über die sogennante Containisierung. Doch was ist eigentlich ein Container?
+Ein Container kann man sich wie der Name schon sagt als einen Container (isolierter Bereich) ansehen, welche eine Anwendung mitsamt der Abhängigkeiten (Konfiguration, Datenbanken, etc.) läuft.
