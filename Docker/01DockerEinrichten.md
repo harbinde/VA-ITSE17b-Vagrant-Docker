@@ -19,6 +19,7 @@ Für den Download wird ein Docker Account benötigt. Die regestrierung ist vollk
 4) Nach einem Neustart muss man sich Abmelden.
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/Docker_Setup4.PNG)
+
 5) Mit dem User wieder anmelden. Es erscheint nun die Meldung, dass Windows das Hyper-V Feature benötigt und daher neugestarten werden muss.
 6) Docker wurde erfolgreich installiert.
 
