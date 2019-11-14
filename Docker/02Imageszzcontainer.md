@@ -19,3 +19,4 @@ Vorhin haben wir Docker installiert. Daher befndet sich noch nichts im Zusemanha
 3) Wenn man nun `docker images` eingibt, werden alle vorhanden Docker Images aufgelistet. Dieser Befehl listet under anderem auf wie das Repository dieses Images heisst, welchen Tag (Version) und welche Image ID für dieses Image generiert wurde.
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/docker_pull_list_image.PNG)
+4) Möchte man das httpd Image starten so führt man den Befehl `docker run httpd:latest` aus. Man kann das Image auch mit der ID starten. dann würde dieser Befehl `docker run IMAGE_ID` lauten.
