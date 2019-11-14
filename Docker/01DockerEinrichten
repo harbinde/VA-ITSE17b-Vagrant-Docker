@@ -1,6 +1,12 @@
 # Docker einrichten
 
 In diesem Abschnitt wird erläutert wie man Docker auf einem Winodws System installieren kann. Dafür Benötigt man die Software Docker Desktop. Diese kann unter https://hub.docker.com/?overlay=onboarding heruntergeladen und das Setup gestarten werden.
-Für den Download wird ein Docker Account benötigt. Die regestrierung ist vollkommen kostenlos.
+Für den Download wird ein Docker Account benötigt. Die regestrierung ist vollkommen kostenlos. Docker Setzt unter Windows auf die Virtualisierungstechnologie von Hyper-V. Solltest du deshalb noch VirtualBox vom Vagrant Kurs besitzen solltest du VirtualBox deinstallieren.
 
-1) 
+1) Das Setup starten
+2) Die Option "Use Windows containers instead of Linux containers" deaktivieren und anschliessend die Installation mit "OK" starten
+3) Docker wird gerade installiert
+4) Nach einem Neustart muss man sich Abmelden.
+5) Mit dem User wieder anmelden. Es erscheint nun die Meldung, dass Windows das Hyper-V Feature benötigt und daher neugestarten werden muss.
+6) Docker wurde erfolgreich installiert.
+
