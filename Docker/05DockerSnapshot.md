@@ -16,7 +16,9 @@ In diesem Beispiel wird ein Ubuntu Container eigerichtet und dann anschliessend 
 
 7) Mit `docker save ubuntu-apache2 > ubuntu-apache2.tar` wird das Image als komprimiertes TAR-File exportiert. 
 
-8) Mit "docker rmi ubuntu-apache2" kann man mit das zuvort erstellt Image löschen.
+8) Mit "docker rmi ubuntu-apache2" kann man mit das zuvort erstellt Image löschen:
+
+![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/dockernewimagepsa.PNG)
 
 9) 
 
