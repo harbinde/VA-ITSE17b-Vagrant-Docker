@@ -8,6 +8,6 @@
 
 2) Mit dem Befehl `docker pause Container_ID` wird der Container eingefrorren. Um diesen Container wieder forzusetzen gibt man "docker unpause Container_ID" in.
 
-3) Mit dem Befehl `docker kill Container_ID` wird der Container gelöscht.
+3) Mit dem Befehl `docker kill Container_ID` wird der Container gestopt und entfernt.
 
 
