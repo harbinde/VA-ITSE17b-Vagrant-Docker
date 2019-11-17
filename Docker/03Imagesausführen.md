@@ -57,4 +57,9 @@ Der `docker run` Befhel ist der am häufigsten verwendete Docker Befehl und unte
 
 Möchte man auf einem bereits erstellen Container eine Anpassung vornehmen kann man dies mit `docker update CONTAINER PARAMETER` machen.
 
+#### Docker Images löschen
+
+Mit dem Befehl `docker rmi IMAGE` kann man die Image(s) entfernen
+
+
 
