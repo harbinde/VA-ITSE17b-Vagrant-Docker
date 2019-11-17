@@ -1,0 +1,4 @@
+# SSH Verbindung zur Bash aufbauen
+
+Docker bietet einen eigenen SSH Deamon an. Mit folgendem Befehl kann mit dem Container eine SSH Verbindung aufbauen:
+* `docker exec -it 64a8e68da1fb bash`
