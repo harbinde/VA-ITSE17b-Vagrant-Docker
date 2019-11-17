@@ -23,13 +23,6 @@ In diesem Abschnitt wird beschriebn wie man ein Image herunteläd und als Contai
 
 Der `docker run` Befhel ist der am häufigsten verwendete Docker Befehl und unterstütz sehr viele docker parametisierungen. Untenstehend werden die wichtigsten Befehle erläutert:
 
-##### ´doker run IMAGE -ti´:
+###### doker run IMAGE -ti:
 * Startet das Image als Container und öffnet anschliessen das Bach (Terminal) des Containers
 
-##### ´doker run IMAGE -ti´:
-* Startet das Image als Container und öffnet anschliessen das Bach (Terminal) des Containers
-
-##### ´doker run IMAGE -ti´:
-* Startet das Image als Container und öffnet anschliessen das Bach (Terminal) des Containers
-##### ´doker run IMAGE -ti´:
-* Startet das Image als Container und öffnet anschliessen das Bach (Terminal) des Containers
