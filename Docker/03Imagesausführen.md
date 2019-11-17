@@ -44,7 +44,10 @@ Der `docker run` Befhel ist der am häufigsten verwendete Docker Befehl und unte
 ###### doker run IMAGE --priviliged:
 * Gibt dem dem User des Containers alle Rechte. Der User kann dan Beispielsweise auch änderungen der Netzwerkeinstellungen tätigen.
 
+###### doker run IMAGE -P 80
+* Docker definiert selbst das NAT auf dem Port 80 des Containers einen Dynamischen Port auf dem Host, welches freigegeben wird.
 
-
+###### doker run IMAGE -p 80:8888
+* Docker definiert das NAT mit dem Port 80 auf dem Container und leitet es dem Host auf dem Port 8888 weiter.
 
 
