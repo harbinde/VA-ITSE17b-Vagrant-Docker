@@ -4,4 +4,10 @@
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/dockerpsa.PNG)
 
+2) 2) Mit dem Befehl `docker stop Container_ID` wird der Container gestoppt.
+
+2) Mit dem Befehl `docker pause Container_ID` wird der Container eingefrorren. Um diesen Container wieder forzusetzen gibt man "docker unpause Container_ID" in.
+
+3) Mit dem Befehl `docker kill Container_ID` wird der Container gelöscht.
+
 
