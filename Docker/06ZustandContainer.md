@@ -3,7 +3,7 @@ Mit dem Befehl `docker inspect` können die Informationen / Werte der Container 
 
 1) Terminal öffnen
 2) `docker ps -a` ausführen. Die ID des Containers kopieren, von dem man die Informartionen abfragen möchte
-3) `docker inspect 88b591ae6ac8` auführen. Es erscheint folgende ausgabe:
+3) `docker inspect 88b591ae6ac8` auführen. Es erscheint folgende ausgabe, welche in JSON ausgeben wird:
 
 ```JSON
 [
