@@ -1,6 +1,6 @@
 # Docker Contaier in ein Image umwandeln.
 
-In diesem Beispiel wird ein Ubuntu Container eigerichtet und dann anschliessend Apache installiert. Danach wird auf diesem Container ain Image erstellt.
+In diesem Beispiel wird ein Ubuntu Container eigerichtet und dann anschliessend Apache installiert. Danach wird auf diesem Container ain Image erstellt, als TAR-File exporriertu und dann wieder importiert.
 
 1) Termnial öffnen
 2) Mit dem Befehl `docker run ubuntu -ti` wird das Ubuntu Images genommen, in einem Container ausgeführt und anschliessend das Terminal von Ubuntu geöffnet.
