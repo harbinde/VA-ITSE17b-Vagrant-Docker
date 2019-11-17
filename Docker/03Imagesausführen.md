@@ -4,7 +4,7 @@ Vorhin haben wir Docker installiert. Daher befndet sich noch nichts im Zusemanha
 In diesem Abschnitt wird beschriebn wie man ein Image herunteläd und als Container ausführt.
 
 1) Terminal öffnen
-2) Den Befehl `docker pull httpd`. Dieser Befehl lädt aus dem Docker Hub das Image herunter und installiert das Offiziele Docker Image von Apache. Das Image wird von Apache auf dem Docker Repository zur Verfügung (Docker Hub) gestellt.
+2) Den Befehl `docker pull httpd`. Dieser Befehl lädt aus dem Docker Hub das neuste Image herunter und installiert das Offiziele Docker Image von Apache. Das Image wird von Apache auf dem Docker Repository zur Verfügung (Docker Hub) gestellt.
 3) Wenn man nun `docker images` eingibt, werden alle vorhanden Docker Images aufgelistet. Dieser Befehl listet under anderem auf wie das Repository dieses Images heisst, welchen Tag (Version) und welche Image ID für dieses Image generiert wurde.
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/docker_pull_list_image.PNG)
