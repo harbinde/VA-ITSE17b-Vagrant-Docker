@@ -12,4 +12,8 @@ In diesem Beispiel wird ein Ubuntu Container eigerichtet und dann anschliessend 
 
 6) Mit `docker ps -a` sollte man das neu angelegte image sehen:
 
-![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/dockernewimagepsa.PNG)
+![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/dockernewimagepsa.PNG
+
+7) Mit `docker save ubuntu-apache2 > ubuntu-apache2.tar` wird das Image als komprimiertes TAR-File exportiert. 
+
+
