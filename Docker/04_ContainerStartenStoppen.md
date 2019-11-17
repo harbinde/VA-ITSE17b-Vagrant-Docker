@@ -10,6 +10,6 @@
 
 3) Mit dem Befehl `docker kill Container_ID` wird der Container sofort terminiert.
 
-4) Mit dem Befehl `docker rm Container_ID` wird der Container entfernt
+4) Mit dem Befehl `docker rm Container_ID` wird der Container entfernt.
 
 
