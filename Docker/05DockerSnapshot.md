@@ -18,7 +18,7 @@ In diesem Beispiel wird ein Ubuntu Container eigerichtet und dann anschliessend 
 
 8) Mit "docker rmi ubuntu-apache2" kann man mit das zuvort erstellt Image löschen:
 
-![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/dockernewimagepsa.PNG)
+![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/dockerrmimage.PNG)
 
 9) 
 
