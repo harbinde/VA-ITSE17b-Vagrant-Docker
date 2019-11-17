@@ -26,3 +26,25 @@ Der `docker run` Befhel ist der am häufigsten verwendete Docker Befehl und unte
 ###### doker run IMAGE -ti:
 * Startet das Image als Container und öffnet anschliessen das Bach (Terminal) des Containers
 
+###### doker run IMAGE -ti:
+* Startet das Image als Container und öffnet anschliessen das Bach (Terminal) des Containers
+
+###### doker run IMAGE --name:
+* Definiert den Namen & Hostname des Containers
+
+###### doker run IMAGE --cpuset="0,1":
+* Definiert die Anzahl CPU & Cores, welche dem Container zur verfügung steht
+
+###### doker run IMAGE --cpu-shares="1024":
+* Definiert die maximale CPU auslastung. Der Wert kann 0-1024 definiert werden. 0 bedeutet, dass der Container 100% der CPU ressourcen zur Verfügung hat. 
+
+###### doker run IMAGE -m="512m":
+* Definiert die Anzahl in MB der RAM, welche dem Container zur Verfügung steht.
+
+###### doker run IMAGE --priviliged:
+* Gibt dem dem User des Containers alle Rechte. Der User kann dan Beispielsweise auch änderungen der Netzwerkeinstellungen tätigen.
+
+
+
+
+
