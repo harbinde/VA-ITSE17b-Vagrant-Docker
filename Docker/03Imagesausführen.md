@@ -23,34 +23,33 @@ In diesem Abschnitt wird beschriebn wie man ein Image herunteläd und als Contai
 
 Der `docker run` Befhel ist der am häufigsten verwendete Docker Befehl und unterstütz sehr viele docker parametisierungen. Untenstehend werden die wichtigsten Befehle erläutert:
 
-###### doker run IMAGE -ti:
+#### Docker Parameter
+
+###### -ti:
 * Startet das Image als Container und öffnet anschliessen das Bach (Terminal) des Containers
 
-###### doker run IMAGE -ti:
-* Startet das Image als Container und öffnet anschliessen das Bach (Terminal) des Containers
-
-###### doker run IMAGE --name:
+###### --name:
 * Definiert den Namen & Hostname des Containers
 
-###### doker run IMAGE --cpuset="0,1":
+###### --cpuset="0,1":
 * Definiert die Anzahl CPU & Cores, welche dem Container zur verfügung steht
 
-###### doker run IMAGE --cpu-shares="1024":
+###### --cpu-shares="1024":
 * Definiert die maximale CPU auslastung. Der Wert kann 0-1024 definiert werden. 0 bedeutet, dass der Container 100% der CPU ressourcen zur Verfügung hat. 
 
-###### doker run IMAGE -m="512m":
+###### -m="512m":
 * Definiert die Anzahl in MB der RAM, welche dem Container zur Verfügung steht.
 
-###### doker run IMAGE --priviliged:
+###### --priviliged:
 * Gibt dem dem User des Containers alle Rechte. Der User kann dan Beispielsweise auch änderungen der Netzwerkeinstellungen tätigen.
 
-###### doker run IMAGE -P 80
+###### -P 80
 * Docker definiert selbst das NAT auf dem Port 80 des Containers einen Dynamischen Port auf dem Host, welches freigegeben wird.
 
-###### doker run IMAGE -p 80:8888
+###### -p 80:8888
 * Docker definiert das NAT mit dem Port 80 auf dem Container und leitet es dem Host auf dem Port 8888 weiter.
 
-###### doker run IMAGE --link container1:container2
+###### --link container1:container2
 * Docker erlaubt die Kommunikation zweichen Contaiainer 1 und Container 2
 
 #### Docker container update
