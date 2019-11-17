@@ -10,7 +10,7 @@ In diesem Abschnitt wird beschriebn wie man ein Image herunteläd und als Contai
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/docker_pull_list_image.PNG)
 
 4) Möchte man das httpd Image starten so führt man den Befehl `docker run httpd:latest` aus. Man kann das Image auch mit der ID starten. dann würde dieser Befehl `docker run IMAGE_ID` lauten.
-5) Das Image httpd benötigt gewisse Einstellungen, dass es auch ausgeführt wird. Deshalb habe ich noch das Ubuntu Image mit `docker pull ubuntu` heruntergeladen und danach gestartet. Möchte man nun auf den laufendem Container eine Verbindung aufbauen, so gibt man den Befehl `docker run -ti ubuntu -` oder `docker run -ti Image-ID` ausführen. Mit `exit` kann jederzeit das Bash des Containers beendet werden.
+5) Das Image httpd benötigt gewisse Einstellungen, dass es auch ausgeführt wird. Deshalb habe ich noch das Ubuntu Image mit `docker pull ubuntu` heruntergeladen und danach gestartet. Möchte man nun auf den laufendem Container eine Verbindung aufbauen, so gibt man den Befehl `docker run -ti ubuntu -` oder `docker run -ti Image-ID` ausführen. Möchte man das Terminal schliessen so muss man CMD beenden. Mit `exit` kann jederzeit das Bash und der Container beendet werden.
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/docker_run.PNG)
 
