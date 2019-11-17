@@ -50,4 +50,8 @@ Der `docker run` Befhel ist der am häufigsten verwendete Docker Befehl und unte
 ###### doker run IMAGE -p 80:8888
 * Docker definiert das NAT mit dem Port 80 auf dem Container und leitet es dem Host auf dem Port 8888 weiter.
 
+###### doker run IMAGE --link container1:container2
+* Docker erlaubt die Kommunikation zweichen Contaiainer 1 und Container 2
+
+
 
