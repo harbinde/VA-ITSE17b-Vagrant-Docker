@@ -13,3 +13,8 @@ In diesem Abschnitt wird beschriebn wie man ein Image herunteläd und als Contai
 5) Das Image httpd benötigt gewisse Einstellungen, dass es auch ausgeführt wird. Deshalb habe ich noch das Ubuntu Image mit `docker pull ubuntu` heruntergeladen und danach gestartet. Möchte man nun auf den laufendem Container eine Verbindung aufbauen, so gibt man den Befehl `docker run -ti ubuntu -` oder `docker run -ti Image-ID` ausführen. Mit `exit` kann jederzeit das Bash des Containers beendet werden.
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/docker_run.PNG)
+
+6) Wenn man unter Windows nun Hyper-V Manager öffnet sieht man, dass die VM `DockerDesktopVM` exestiert. Auf dieser VM läuft Docker und die Container:
+
+![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/hyperv_dockervm.PNG)
+
