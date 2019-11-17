@@ -1,0 +1,31 @@
+# Dockerfile
+
+Das Dockerfile oder auch Dockef Buildfile ist eine Datei, in dem definiert werden kann wie wie ein Contaier aufgesetzt werden kann.
+Hier geht es vor allem um die Automatisierung von Containern. Das Dockerfile ist ein von Docker definiertes Skript, welche gewisse Paramter für die Container und Sktipts definiert.
+
+FROM
+
+MAINTAINER
+
+ADD
+
+COPY
+
+RUN
+
+ENV
+
+USER
+
+CMD
+
+ENTRYPOINT
+
+VOLUME
+
+EXPOSE
+
+ONBUILD
+
+
+1) Als erstes wird auf dem Desktop das Verzeichnis DockerApache angelegt. In diesem Verzeichnis wird dann das File `Dockerfile` angelegt
