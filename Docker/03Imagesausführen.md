@@ -18,3 +18,18 @@ In diesem Abschnitt wird beschriebn wie man ein Image herunteläd und als Contai
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/hyperv_dockervm.PNG)
 
+
+## Docker run
+
+Der `docker run` Befhel ist der am häufigsten verwendete Docker Befehl und unterstütz sehr viele docker parametisierungen. Untenstehend werden die wichtigsten Befehle erläutert:
+
+##### ´doker run IMAGE -ti´:
+* Startet das Image als Container und öffnet anschliessen das Bach (Terminal) des Containers
+
+##### ´doker run IMAGE -ti´:
+* Startet das Image als Container und öffnet anschliessen das Bach (Terminal) des Containers
+
+##### ´doker run IMAGE -ti´:
+* Startet das Image als Container und öffnet anschliessen das Bach (Terminal) des Containers
+##### ´doker run IMAGE -ti´:
+* Startet das Image als Container und öffnet anschliessen das Bach (Terminal) des Containers
