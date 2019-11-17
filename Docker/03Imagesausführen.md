@@ -53,5 +53,8 @@ Der `docker run` Befhel ist der am häufigsten verwendete Docker Befehl und unte
 ###### doker run IMAGE --link container1:container2
 * Docker erlaubt die Kommunikation zweichen Contaiainer 1 und Container 2
 
+#### Docker container update
+
+Möchte man auf einem bereits erstellen Container eine Anpassung vornehmen kann man dies mit `docker update CONTAINER PARAMETER` machen.
 
 
