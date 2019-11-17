@@ -1,5 +1,5 @@
 # Zustand eines Containers analysieren
-Mit dem Befehl `docker inspect` können die Informationen / Werte der Container dargestellt werden.
+Mit dem Befehl `docker inspect` können die Informationen / Werte der Container dargestellt werden. Mit diesem Befehl kann man Beispielsweise CPU, Hostname, Speicher und die Netzwerkconfiguration des Containers auslesen.
 
 1) Terminal öffnen
 2) `docker ps -a` ausführen. Die ID des Containers kopieren, von dem man die Informartionen abfragen möchte
