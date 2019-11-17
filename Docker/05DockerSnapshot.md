@@ -14,11 +14,10 @@ In diesem Beispiel wird ein Ubuntu Container eigerichtet und dann anschliessend 
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/dockernewimagepsa.PNG)
 
-7) Mit `docker save ubuntu-apache2 > ubuntu-apache2.tar` wird das Image als komprimiertes TAR-File exportiert. 
+7) Mit `docker save ubuntu-apache2 > apache.tar` wird das Image als komprimiertes TAR-File exportiert. 
 
-8) Mit "docker rmi ubuntu-apache2" kann man mit das zuvort erstellt Image löschen:
+8) Mit "docker rmi -f ubuntu-apache2" kann man mit das zuvort erstellt Image löschen:
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/dockerrmimage.PNG)
 
-9) 
-
+9) Möchte man das exportiere Docker Image importieren gibt man `docker load < apache.tar` ein. Das Image wird mit dem Namen `ubuntu-apache2` importiert. Anschliessend kann man dan mit `docker run ubuntu-apache2` das Image als Container ausführen
