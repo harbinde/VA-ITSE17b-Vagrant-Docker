@@ -8,4 +8,4 @@ Die Operationen der Conatiner werden alle durch den Eigentlichen Host abgewickel
 
 Wenn man einen Docker Image nimmt und diesen mit dem Befehl `docker run` auswühren würde, wird daraus ein laufender Container entstehen. In diesem Container werden ein oder mehrere Prozesse ausgeführt, welches "etwas tut".
 
-![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/dockerrmimage.PNG)
+![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/dockerimageworkflow.PNG)
