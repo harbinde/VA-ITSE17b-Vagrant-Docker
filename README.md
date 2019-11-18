@@ -60,7 +60,6 @@ Im Rahmen der Vertiefungsarbeit wurde für Studenten und Schüler der Technische
 
 * [Docker Repositories](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/11DockerRepo.md)
 
-## ------------------------------------------------------------------------------------------------------------------
 ## Reflexion
 * [Fazit](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/fazit.md)
 
