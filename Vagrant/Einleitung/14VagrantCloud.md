@@ -1,6 +1,6 @@
 # Eine Box in Vagrant Cloud bereitstellen
 
-Vagrant bietet die Funktion, lebsterstelle Boxen in der Cloud hochzuladen und für andere verfügbar zu machen. In diesem Beispiel wrd erläutert wie man dies macht. Die Base Box finden man unter 
+Vagrant bietet die Funktion, selbsterstellte Boxen in der Cloud hochzuladen und für andere verfügbar zu machen. In diesem Beispiel wird erläutert wie man dies macht.
 
 1) Die Website https://app.vagrantup.com aufrufen
 2) Ein kostenloses Vagrant Account erstellen und sich damit anmelden
@@ -9,9 +9,9 @@ Vagrant bietet die Funktion, lebsterstelle Boxen in der Cloud hochzuladen und f�
 5) Die Version mit `0.0.1` definieren
 6) Ins Verzeichnis der Vagrant Box wechseln und `vagrant up` ausführen.
 7) Mit `vagrant package --vagrantfile Vagrantfile --output NginxBox.box` wird aus der VM eine Box erstellt.
-8) Mit dem Befehl `certutil -hashfile NginxBox.com -SHA256` wird der Hash dieser Box erzeugt. Dieser wird dan später benötigt
+8) Mit dem Befehl `certutil -hashfile NginxBox.com -SHA256` wird der Hash dieser Box erzeugt. Dieser wird dann später benötigt
 9) Nun wechselt man wieder zu Vagrant Cloud und klickt auf "Add a Provider". Als Provider wird "VirtualBox" definiert. Als File Hosting wird Vagrant Cloud verwendet. Nun wird die Checksumme auf SHA256 definiert und der Hashwert, welches vorhin erzeugt wurde hinzugefügt. Anschliessend wird die Box hochgeladen. Danach klickt man auf "Release Version". Die Box steht nun allen zur Verfügung.
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/IMG/vagrantcloud_1.PNG)
 
-10) Auf dem Desktop einne neuen Ordnern anlegen und ins Verzeichnis mit `cd` wechseln. Den Befehl `vagrant init harbind/Vagrant_Nginx` ausführen. Danach wird die Box mit `vagrant up` installiert und konfiguriert.
+10) Auf dem Desktop einen neuen Ordnern anlegen und ins Verzeichnis mit `cd` wechseln. Den Befehl `vagrant init harbind/Vagrant_Nginx` ausführen. Danach wird die Box mit `vagrant up` installiert und konfiguriert.
