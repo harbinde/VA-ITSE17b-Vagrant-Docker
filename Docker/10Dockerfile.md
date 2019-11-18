@@ -103,10 +103,14 @@ RUN apt-get install nginx -y
 RUN apt-get install nano -y
 #Kopiert die Datei default, welche sich auf dem Host in das Verzeichnis des Containers
 ADD default /etc/nginx/sites-available/default
-RUN service nginx restart
+RUN service nginx reload
 
 ```
 4) Nun wird aus dem Dockerfile mit `docker build -t nginxv1` ein Image erstellt:
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/dockerbuild.PNG)
+
+5) Mit `dockr run -ti --net host --name nginxcontainer nginxv1` wird das Image als Container gestartet und ins Host netzwerk hinzugefügt. Nun kann auf mit dem Web-Browser überpüft werden, ob dieser via HOST IP zu erreichen ist:
+
+![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/dockernetnginx.PNG)
 
