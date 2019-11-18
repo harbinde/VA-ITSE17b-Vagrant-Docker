@@ -37,7 +37,7 @@ Im Rahmen der Vertiefungsarbeit wurde für Studenten und Schüler der Technische
 
 ## Docker
 
-* [Einleitung](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/00Einleitung.md)
+* [Einleitung](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/00EinleitungDocker.md)
 
 * [Einrichtung von Docker](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/01DockerEinrichten.md)
 
@@ -51,7 +51,7 @@ Im Rahmen der Vertiefungsarbeit wurde für Studenten und Schüler der Technische
 
 * [Veränderungen von Images und Container auslesen](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/07Logs%C3%84nderungen.md)
 
-* [SSH Verbindung zum Container aufbauen](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/06_Vagranthaltdesroy.md)
+* [SSH Verbindung zum Container aufbauen](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/08SSHverbindung.md)
 
 * [Netzwerke mit Docker verwalten](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/09Netzwerk.md)
 
