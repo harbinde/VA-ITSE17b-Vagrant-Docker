@@ -1,6 +1,10 @@
 # VA-ITSE17b-Vagrant-Docker
 ##### Vertiefungsarbeit von Harbin Dehari | ITSE17b | TBZ HF | 22. November 2019 | Zürich
-Im Rahmen der Vertiefungsarbeit wurde für Studenten und Schüler der Technischen Schule Zürich ein Selbstudienkurs für Vagrant und Docker erstellt. Dieser Kurs wurde von einem Anfänger für Anfänger realisiert ;)
+Im Rahmen der Vertiefungsarbeit wurde für Studenten und Schüler der Technischen Schule Zürich ein Selbstudienkurs für Vagrant und Docker erstellt. Dieser Kurs wurde von einem Anfänger für Anfänger realisiert :wink:
+
+* [Fazit](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/00Einleitung.md)
+* [Quellenangaben](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/00Einleitung.md)
+
 ## Vagrant
 * [Einleitung](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Vagrant/Einleitung/00Einleitung.md)
 
