@@ -31,4 +31,5 @@ EXPOSE
 ONBUILD
 
 
-1) Als erstes wird auf dem Desktop das Verzeichnis DockerApache angelegt. In diesem Verzeichnis wird dann das File `Dockerfile` angelegt
+1) Als erstes wird auf dem Desktop das Verzeichnis DockerApache angelegt. In diesem Verzeichnis wird dann das File `Dockerfile` angelegt.
+2) 
