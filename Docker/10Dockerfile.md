@@ -32,4 +32,20 @@ ONBUILD
 
 
 1) Als erstes wird auf dem Desktop das Verzeichnis DockerApache angelegt. In diesem Verzeichnis wird dann das File `Dockerfile` angelegt.
-2) 
+2) Das Dockerfile wird folgendermassen bearbeitet:
+```Dockerfile
+#Definiert, welches Image verwendet werden soll
+FROM ubuntu
+#Definiert den Author des Dockerfiles
+MAINTAINER Harbin Dehari <harbin@dehari.ch>
+
+#RUN Befehle fuehren auf dem Container Befehle durch.
+# In diesem Beispiel werden die Installations  Libaries aktualisiert und anschliessend Nginx installiert
+RUN apt-get update -y
+RUN apt-get install nginx -y
+RUN apt-get install nano -y
+#Kopiert die Datei default, welche sich auf dem Host in das Verzeichnis des Containers
+ADD default /etc/nginx/sites-available/default
+RUN service nginx restart
+
+```
