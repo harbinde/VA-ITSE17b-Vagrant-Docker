@@ -1,4 +1,4 @@
-# Docker Image ausführen
+# Docker Images als Container ausführen
 
 Vorhin haben wir Docker installiert. Daher befndet sich noch nichts im Zusemanhang mit Images und Container. 
 In diesem Abschnitt wird beschriebn wie man ein Image herunteläd und als Container ausführt.
