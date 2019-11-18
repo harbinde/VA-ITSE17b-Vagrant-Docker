@@ -97,28 +97,31 @@ RUN service nginx reload
 
 ## Dockefile Befehle
 
+##### FROM IMAGE:
+* Definiert das Image welches vom Docker Hub genommen werden soll
 
-FROM
+##### MAINTAINER NAME SURNAME <mail@mail.com>:
 
-MAINTAINER
+* Definiert den Author des Dockerfile
+##### COPY file /locantion/file:
+* Koppiert ein File vom Host zum Container Verzeichnis
 
-ADD
+##### ADD file.tar /location/:
+* Koppiert auch ein File vom Host zum Container Verzeichnis. Kommt jedoch mit der Zusatzfunktion, dass kopmrimierte Verzeichnise automatisch entpackt und kopiert werden. Es unterstützt auch URL's.
 
-COPY
+##### RUN SHELL Befehl:
+* Führt einen Shell Befehl aus
 
-RUN
+##### ENV Variable=WERT
+* Hier können Variablen definiert werden, welche Beispielsweise mit den RUN Befehlen ausgeführt werden.
 
-ENV
+##### VOLUME "C:\HostLocation" "/container/location"
+* Richtet einen Shared Volume ein, welcher mit dem Host synchronisiert.
 
-USER
+##### EXPOSE 8080
+ * Definiert das Port Mapping für Port 8080 auf beiden Seiten
 
-CMD
+##### User Harbin
+* Definiert einen User, welcher auf dem Container sich dann befindet
 
-ENTRYPOINT
-
-VOLUME
-
-EXPOSE
-
-ONBUILD
-
+Weitere Dockerfile Befehele können unter https://docs.docker.com/engine/reference/builder/ eingesehen werden.
