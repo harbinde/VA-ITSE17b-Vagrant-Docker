@@ -4,12 +4,12 @@
 #### Kursmaterial: (https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/tree/master/Vagrant/Einleitung/Kursmaterial/13Multimachines)
 #### -------------------------------------------------------------------------
 
-Wir haben bis jetzt jeweils nur eine Vagrant Box automatisiert. Vagrant unterstützt jedoch auch, dass man mit nur einem Vagrantfile gleich mehrere Virtuelle Machines erstellen kann.
+Wir haben bis jetzt jeweils nur eine Vagrant Box automatisiert. Vagrant unterstützt jedoch auch, dass man mit nur einem Vagrantfile gleich mehrere Virtuelle Maschinen erstellen kann.
 Dies macht Beispielsweise dann Sinn, wenn man eine Testumgebung benötigt, wo man den Service in verschieden Tiers teilen möchte, indem man auf einer Box einen Webserver einrichtet und auf der andere Box eine Datenbank betreibt.
 
-1) In unserem Projekt `Vagrant_Hello` wurde schon eine eine Apache Webserver automatisiet. Nun möchten wir eine zusätzlie Box ausrollen. In diesem Fall habe ich mich für Nginx entschieden. Es kann jedoch auch Beispielsweise eine Datenbank eingerichtet werden.
+1) In unserem Projekt `Vagrant_Hello` wurde schon eine eine Apache Webserver automatisiert. Nun möchten wir eine zusätzliche Box ausrollen. In diesem Fall habe ich mich für Nginx entschieden. Es kann jedoch auch Beispielsweise eine Datenbank eingerichtet werden.
 2) Vagrantfile öffnen
-3) Alle zusätlichen Statements, welche bis jetzt hinzugefügt wurden werden mit "#" wieder kommentiert.
+3) Alle zusätzliche Statements, welche bis jetzt hinzugefügt wurden werden mit "#" wieder kommentiert.
 4) Eine zusätzliche Box muss sich unterhalb des Statesments `Vagrant.configure("2") do |config|` befinden. Nun werden folgedene Statements hinzugefügt:
 ```ruby
 # -*- mode: ruby -*-
@@ -41,6 +41,6 @@ config.vm.define "apache" do |apache|
 end
 ```
 
-5) Eine Box wird immer mit config.vm.definie "BOXNAME" |BOXNAME| definiert. Wenn man nun für diese Box Beispielsweise eine eine IP zuweisen möchte, so gibt man vor dem Statements noch den Boxnamen ein (`BOXNAME.vm.network "private_network", ip: "X.X.X.X" `)
+5) Eine Box wird immer mit config.vm.definie "BOXNAME" |BOXNAME| definiert. Wenn man nun für diese Box Beispielsweise eine eine IP zuweisen möchte, so gibt man vor den Statements noch den Boxnamen ein (`BOXNAME.vm.network "private_network", ip: "X.X.X.X" `)
 6) Mit `vagrant up` werden die Boxen eingerichtet
-7) Nun kann man mit dem Web-Broswe die Adressen http://127.0.0.1:7777 und http://127.0.0.1:8888 aufrufen. Es wurden nun zwei Vagrant Boxen ausgerollt:
+7) Nun kann man mit dem Web-Browser die Adressen http://127.0.0.1:7777 und http://127.0.0.1:8888 aufrufen. Es wurden nun zwei Vagrant Boxen ausgerollt:
