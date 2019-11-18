@@ -3,7 +3,7 @@
 Wie Ihr hatte ich vor Beginn meiner Vertiefungsarbeit keine Kenntinsse mit Vagrant und Docker. Deshalb war es für mich eine Herausforderung euch so einen Kurs zur Verfügung zu Stellen. 
 Ich musste zuerst mich selbst in diesen Thematiken einlesen und selbst diese auf einem Testsystem erlernen. Das Vertiefungsfach VBA war mir da auch sehr Hilfreich. Herr Marcel Bernet konnte den Stoff sehr gut vermitteln.
 Vagrant und Docker sind sehr nützliche Technologien, welche sicher in der Zukunft mehr an Bedeutung gewinnen wird. Ziel dieser Arbeit war es einen Kurs zu realisieren, welcher auch einfach zu vestehen ist.
-Es sollte kein Problem diesen Stoff zu erlernen, wenn man interesse an Vagrant und Docker hat oder sich Besipielsweise im zweiten Lehrjahr als Informatiker (mein Bruder hat diesen Kurs für mich getestet - Danke!) befindet.
+Es sollte kein Problem diesen Stoff zu erlernen, wenn man interesse an Vagrant und Docker hat oder sich Besipielsweise im zweiten Lehrjahr als Informatiker (mein Bruder hat diesen Kurs für mich getestet) befindet. Ich möchte mich für die Unterstützung bzw. Kritik von Herrn Bernet und meinem Bruder für das Durchführen dieses Kurses bedanken.
 
 # Quellenangaben
 
