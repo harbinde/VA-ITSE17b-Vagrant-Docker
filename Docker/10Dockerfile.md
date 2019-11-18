@@ -10,30 +10,7 @@ Hier geht es vor allem um die Automatisierung von Containern. Das Dockerfile ist
 Die Dockefiles werden mit dem Befehl `docker build -t Name .`. Der Punkt definiert Die Location des Dockerfiles und bedeutet, dass es sich im aktuellen Verzeichnis befindet, wo der Befehl ausgeführt wird. Jede Zeile, welche aus dem Dockerfile ausgeführt wird, erstellt ein Neues Image.
 Jeder Schritt, welcher vom Dockerfile ausgeführt wird, wird gecached. Das spart sehr viel Zeit und Speicher. Wenn man Beispielsweise das Dockerfile anpassen würde, würde er nur die "Teilimages" aus dem Cache anpassen, welche auch wirklich verändert wurden.
 
-FROM
-
-MAINTAINER
-
-ADD
-
-COPY
-
-RUN
-
-ENV
-
-USER
-
-CMD
-
-ENTRYPOINT
-
-VOLUME
-
-EXPOSE
-
-ONBUILD
-
+## Nginx Image mithilfe eines Dockerfile ausführen
 
 1) Als erstes wird auf dem Desktop das Verzeichnis Dockerfile angelegt. In diesem Verzeichnis wird dann das File `Dockerfile` angelegt.
 2) Es wird die Datei default erstellt. Das ist die Config-Datei des Nginx Servers:
@@ -117,4 +94,31 @@ RUN service nginx reload
 5) Mit `dockr run -ti --net host --name nginxcontainer nginxv1` wird das Image als Container gestartet und ins Host netzwerk hinzugefügt. Nun kann auf mit dem Web-Browser überpüft werden, ob dieser via HOST IP zu erreichen ist:
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/dockernetnginx.PNG)
+
+## Dockefile Befehle
+
+
+FROM
+
+MAINTAINER
+
+ADD
+
+COPY
+
+RUN
+
+ENV
+
+USER
+
+CMD
+
+ENTRYPOINT
+
+VOLUME
+
+EXPOSE
+
+ONBUILD
 
