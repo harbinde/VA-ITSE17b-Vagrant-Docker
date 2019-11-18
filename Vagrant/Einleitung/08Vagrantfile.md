@@ -1,6 +1,6 @@
 # Vagrantfile
-Vagrantfiles sind ganz einfache Ruby statements, welche von der Vagrant CLI verwendet wird, um die Atributte einer Vagrant Box zu definieren.
-Beispielsweisse können in einem Vagrantfile folgende Atributte definiert werden:
+Vagrantfiles sind ganz einfache Ruby Statements, welche von der Vagrant CLI verwendet wird, um die Attribute einer Vagrant Box zu definieren.
+Beispielsweise können in einem Vagrantfile folgende Attribute definiert werden:
 
 - CPU
 - RAM
