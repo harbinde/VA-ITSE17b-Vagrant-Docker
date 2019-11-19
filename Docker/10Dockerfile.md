@@ -72,7 +72,7 @@ try_files $uri $uri/ =404;
 ```
 
 3) Das Dockerfile wird folgendermassen bearbeitet:
-'''Dockerfile
+'''docker
 #Definiert, welches Image verwendet werden soll
 FROM ubuntu
 #Definiert den Author des Dockerfiles
