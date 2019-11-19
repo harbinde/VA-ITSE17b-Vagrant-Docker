@@ -14,7 +14,7 @@ Jeder Schritt, welcher vom Dockerfile ausgeführt wird, wird gecached. Das spart
 
 1) Als Erstes wird auf dem Desktop das Verzeichnis Dockerfile angelegt. In diesem Verzeichnis wird dann das File 'Dockerfile' angelegt.
 2) Es wird die Datei default erstellt. Das ist die Config-Datei des Nginx Servers:
-'''BASH
+'''SHELL
 server {
 listen 8888 default_server;
 listen [::]:8888 default_server ipv6only=on;
