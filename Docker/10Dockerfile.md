@@ -79,7 +79,7 @@ FROM ubuntu
 MAINTAINER Harbin Dehari <harbin@dehari.ch>
 
 #RUN Befehle fuehren auf dem Container Befehle durch.
-# In diesem Beispiel werden die Installations Libaries aktualisiert und anschliessend Nginx installiert
+#In diesem Beispiel werden die Installations Libaries aktualisiert und anschliessend Nginx installiert
 RUN apt-get update -y
 RUN apt-get install nginx -y
 RUN apt-get install nano -y
