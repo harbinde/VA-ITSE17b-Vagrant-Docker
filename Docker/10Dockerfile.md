@@ -16,6 +16,7 @@ Jeder Schritt, welcher vom Dockerfile ausgeführt wird, wird gecached. Das spart
 2) Es wird die Datei default erstellt. Das ist die Config-Datei des Nginx Servers:
 
 
+
 3) Das Dockerfile wird folgendermassen bearbeitet:
 '''Dockerfile
 #Definiert, welches Image verwendet werden soll
