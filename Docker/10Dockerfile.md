@@ -92,7 +92,7 @@ RUN service nginx reload
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/dockerbuild.PNG)
 
-5) Mit 'dockr run -ti --net host --name nginxcontainer nginxv1' wird das Image als Container gestartet und ins Host netzwerk hinzugefügt. Nun kann auf mit dem Web-Browser überpüft werden, ob dieser via HOST IP zu erreichen ist:
+5) Mit 'docker run -ti --net host --name nginxcontainer nginxv1' wird das Image als Container gestartet und ins Host netzwerk hinzugefügt. Nun kann auf mit dem Web-Browser überpüft werden, ob dieser via HOST IP zu erreichen ist:
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/dockernetnginx.PNG)
 
