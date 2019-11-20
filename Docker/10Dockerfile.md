@@ -88,7 +88,7 @@ ADD default /etc/nginx/sites-available/default
 RUN service nginx reload
 
 ```
-4) Nun wird aus dem Dockerfile mit 'docker build -t nginxv1' ein Image erstellt:
+4) Nun wird aus dem Dockerfile mit 'docker build -t nginxv1 .' ein Image erstellt:
 
 ![alt text](https://github.com/harbinde/VA-ITSE17b-Vagrant-Docker/blob/master/Docker/IMG/dockerbuild.PNG)
 
